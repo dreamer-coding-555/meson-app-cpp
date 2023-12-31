@@ -1,5 +1,5 @@
 /*
-   File: xtest_cases.c
+   File: xtest_cases.cpp
    Description: This C test runner file is used for testing the Native Meson Build Application, a project under the Trilobite Coder Lab.
    
    Author: 
@@ -16,12 +16,10 @@
 
    For more information on the Native Meson Build Application, the Trilobite Coder Lab project, and the testing framework or library being used, please refer to the relevant project documentation.
 */
-#include "app.h" // app source code
+#include "app.hpp" // app source code
 
 #include <trilobite/xtest.h>   // basic test tools
 #include <trilobite/xassert.h> // extra asserts
-#include <stdlib.h>
-#include <stdbool.h>
 
 //
 // XUNIT-CASES: list of test cases testing project features
@@ -35,7 +33,7 @@ XTEST_CASE(basic_run_of_string) {
 
 XTEST_CASE(basic_run_of_pointer) {
     TEST_ASSERT_NOT_CNULLPTR("Coffee Cup");
-    TEST_ASSERT_CNULLPTR(NULL);
+    TEST_ASSERT_CNULLPTR(nullptr);
 }
 
 XTEST_CASE(basic_run_of_boolean) {
