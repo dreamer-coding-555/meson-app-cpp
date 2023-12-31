@@ -3,11 +3,11 @@ if get_option('with_xunit').enabled()
         dependency('tscl-xtest-c')
     ]
 
-    test_src = ['xunit_runner.c']
+    test_src = ['xunit_runner.cpp']
     test_cubes = ['cases']
 
     foreach cube : test_cubes
-        test_src += ['xtest_' + cube + '.c']
+        test_src += ['xtest_' + cube + '.cpp']
     endforeach
 
     pizza = executable('xcli', test_src, include_directories: dir, dependencies : [test_deps, app_dep])
