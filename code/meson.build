@@ -4,7 +4,7 @@ deps = [
     dependency('tscl-xstring-c')
 ]
 dir = include_directories('.')
-code = files('app.c')
+code = files('app.cpp')
 
 lib = static_library('code', code,
     dependencies: deps,
@@ -15,7 +15,7 @@ app_dep = declare_dependency(
     dependencies: deps,
     include_directories: dir)
 
-executable('app', 'main.c',
+executable('app', 'main.cpp',
     dependencies: app_dep,
     include_directories: dir,
     install: true)
