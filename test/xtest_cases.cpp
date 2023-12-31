@@ -20,15 +20,16 @@
 
 #include <trilobite/xtest.h>   // basic test tools
 #include <trilobite/xassert.h> // extra asserts
+#include <string>
 
 //
 // XUNIT-CASES: list of test cases testing project features
 //
 XTEST_CASE(basic_run_of_string) {
-    char *one = "Something";
-    char *two = "Coffe Cup";
-    TEST_ASSERT_EQUAL_CSTRING(one, one);
-    TEST_ASSERT_NOT_EQUAL_CSTRING(one, two);
+    std::string one = "Something";
+    std::string two = "Coffe Cup";
+    TEST_ASSERT_EQUAL_STRING(one, one);
+    TEST_ASSERT_NOT_EQUAL_STRING(one, two);
 }
 
 XTEST_CASE(basic_run_of_pointer) {
