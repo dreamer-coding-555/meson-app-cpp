@@ -32,19 +32,11 @@
 
    For any questions, concerns, or contributions, feel free to contact the author via email or visit the Trilobite Coder Lab website.
 */
-#ifndef APP_H
-#define APP_H
-
-#ifdef __cplusplus
-extern "C" {
-#endif
+#ifndef APP_HPP
+#define APP_HPP
 
 #include <trilobite/xcore.h> // core framework
 #include <trilobite/xutil.h> // base utilities
 #include <trilobite/xstring.h> // that string lib
-
-#ifdef __cplusplus
-}
-#endif
 
 #endif
