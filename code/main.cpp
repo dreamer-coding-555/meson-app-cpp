@@ -1,6 +1,6 @@
 /*
-   File: main.c
-   Description: This C source file is part of the Native Meson Build Application, which is a project under the Trilobite Coder Lab.
+   File: main.cpp
+   Description: This C++ source file is part of the Native Meson Build Application, which is a project under the Trilobite Coder Lab.
    
    Author: 
    - Name: Michael Gene Brockus (Dreamer)
