@@ -1,6 +1,6 @@
 /*
-   File: app.c
-   Description: This C source file is part of the Native Meson Build Application, which is a project under the Trilobite Coder Lab.
+   File: app.cpp
+   Description: This C++ source file is part of the Native Meson Build Application, which is a project under the Trilobite Coder Lab.
    
    Author: 
    - Name: Michael Gene Brockus (Dreamer)
@@ -16,7 +16,7 @@
 
    For more information on the Native Meson Build Application and the Trilobite Coder Lab project, please refer to the project documentation and website.
 */
-#include "app.h"
+#include "app.hpp"
 
 /*
  * The run_app function is designed to read data from a file named "data.txt"
