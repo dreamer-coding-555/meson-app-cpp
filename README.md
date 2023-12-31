@@ -21,8 +21,8 @@ Before getting started, make sure you have the following installed:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/dreamer-coding-555/meson-app-c.git
-   cd meson-app-c
+   git clone https://github.com/dreamer-coding-555/meson-app-cpp.git
+   cd meson-app-cpp
    ```
 
 2. **Configure the Build**:
@@ -47,11 +47,11 @@ Before getting started, make sure you have the following installed:
 
 ## Contributing
 
-If you're interested in contributing to this project, please consider opening pull requests or creating issues on the [GitHub repository](https://github.com/dreamer-coding-555/meson-app-c). Be sure to read the documentation on the [project website](https://trilobite.home.blog).
+If you're interested in contributing to this project, please consider opening pull requests or creating issues on the [GitHub repository](https://github.com/dreamer-coding-555/meson-app-cpp). Be sure to read the documentation on the [project website](https://trilobite.home.blog).
 
 ## Feedback and Support
 
-If you encounter any issues, have questions, or would like to provide feedback, don't hesitate to open an issue on the [GitHub repository](https://github.com/dreamer-coding-555/meson-app-c/issues).
+If you encounter any issues, have questions, or would like to provide feedback, don't hesitate to open an issue on the [GitHub repository](https://github.com/dreamer-coding-555/meson-app-cpp/issues).
 
 ## License
 
